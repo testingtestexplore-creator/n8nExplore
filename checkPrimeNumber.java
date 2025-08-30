@@ -16,6 +16,7 @@ public class checkPrimeNumber {
         }
         for(int i=2;i<=Math.sqrt(n);i++)
         {
+        System.out.println("My num is "+i);
             if(n%i==0)
             {
                 return false;
@@ -24,4 +25,5 @@ public class checkPrimeNumber {
         return true;
     }
     
+
 }
