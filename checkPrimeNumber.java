@@ -3,7 +3,7 @@ package Java;
 public class checkPrimeNumber {
 
     public static void main(String[] args) {
-        System.out.println(checkPrime(7));
+        System.out.println(checkPrime(8));
         System.out.println(checkPrime(10));
    
     }
@@ -24,4 +24,5 @@ public class checkPrimeNumber {
         return true;
     }
     
+
 }
